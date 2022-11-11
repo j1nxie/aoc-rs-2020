@@ -11,7 +11,7 @@ pub fn part_one(input: &str) -> Option<u32> {
 
         let mut count = 0;
         for c in password.chars() {
-            if c == letter.chars().nth(0).unwrap() {
+            if c == letter.chars().next().unwrap() {
                 count += 1;
             }
         }
@@ -36,7 +36,7 @@ pub fn part_two(input: &str) -> Option<u32> {
 
         let low_char = password.chars().collect::<Vec<_>>()[low as usize - 1];
         let high_char = password.chars().collect::<Vec<_>>()[high as usize - 1];
-        let letter_char = letter.chars().nth(0).unwrap();
+        let letter_char = letter.chars().next().unwrap();
 
         ans += if (low_char == letter_char && high_char != letter_char)
             || (low_char != letter_char && high_char == letter_char)
