@@ -23,13 +23,13 @@ Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.
 
 This template supports all major OS (macOS, Linux, Windows).
 
-### Create your repository
+### Create your repository 📝
 
 1.  Open [the template repository](https://github.com/fspoettel/advent-of-code-rust) on Github.
-2.  Click `Use this template` and create your repository.
+2.  Click [Use this template](https://github.com/fspoettel/advent-of-code-rust/generate) and create your repository.
 3.  Clone your repository to your computer.
 
-### Setup rust
+### Setup rust 💻
 
 1.  Install the [Rust toolchain](https://www.rust-lang.org/tools/install).
 2.  (recommended) Install the [rust-analyzer](https://rust-analyzer.github.io/manual.html) extension for your code editor.
@@ -111,7 +111,7 @@ Displayed _timings_ show the raw execution time of your solution without overhea
 cargo all
 
 # output:
-#     Running `target/release/aoc`
+#     Running `target/release/advent_of_code`
 # ----------
 # | Day 01 |
 # ----------
@@ -130,7 +130,7 @@ cargo all
 
 _Total timing_ is computed from individual solution _timings_ and excludes as much overhead as possible.
 
-### Run all solutions against example input
+### Run all solutions against the example input
 
 ```sh
 cargo test
